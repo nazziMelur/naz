@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body background = "c.jpg">
+    <title> FORM FEEDBACK</title>
+    <style>
+
+      input[type=text], select, textarea 
+      {
+        width: 100%; /*  width */
+        padding: 12px; /*  padding */ 
+        border: 1px solid #ccc; /* border */
+        border-radius: 4px; /* borders */
+        box-sizing: border-box; 
+        margin-top: 6px; /* top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical
+      }
+
+      
+      input[type=submit] 
+      {
+        background-color: #80A8D4 ;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+     
+      input[type=submit]:hover 
+      {
+        background-color: #5D6D7E;
+      }
+
+      .container 
+      {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      #p1{font-family: monospace;}
+
+      header
+    {
+      background-color:#5D6D7E;
+      color: black;
+      text-align:center;
+      padding:40px;
+
+    }
+
+    table, th, td 
+    {
+      border: 1px solid black;
+      vertical-align:center;
+      padding: 15px;
+    }
+    
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: brown;
+      }
+
+      li.dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+<body>
+  <header><font size = "+7"><b> Once Upon A Book</b></font></header>
+  <p id="p1">
+<ul>
+  <li><a href="first.html" target= "_blank">MAIN</a></li>
+  <li><a href="form.html" target= "_blank">FEEDBACK FORM</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">GENRE</a>
+    <div class="dropdown-content">
+      <a href="rom.html" target= "_blank">ROMANCE</a>
+      <a href="action.html" target= "_blank">ACTION</a>
+      <a href="thriller.html" target= "_blank">THRILLER & HORROR</a>
+    </div>
+  </li>
+</ul>
+</p>
+  
+ <div class="container">
+  <form >
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="emailadd" placeholder="Your email.."><br><br>
+
+    <label for="country">Country</label><br>
+    <select id="country" name="country">
+      <option value = "Malaysia"> Malaysia</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value = "singa" > Singapore</option>
+    </select>
+
+    <label for="subject">Subject</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body background = "c.jpg">
+    <title> THRILLER</title>
+    <style>
+
+          #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: brown;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+
+    #myBtn:hover {
+      background-color: #555;
+    }
+
+      #p1{font-family: monospace;}
+
+      header
+    {
+      background-color:#5D6D7E;
+      color: black;
+      text-align:center;
+      padding:40px;
+
+    }
+
+    table, th, td 
+    {
+      border: 1px solid black;
+      vertical-align:center;
+      padding: 15px;
+    }
+    
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: brown;
+      }
+
+      li.dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+  <header><font size = "+7"><b> Once Upon A Book</b></font></header>
+  <p id="p1">
+<ul>
+  <li><a href="first.html" target= "_blank">MAIN</a></li>
+  <li><a href="form.html" target= "_blank">FEEDBACK FORM</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">GENRE</a>
+    <div class="dropdown-content">
+      <a href="rom.html" target= "_blank">ROMANCE</a>
+      <a href="action.html" target= "_blank">ACTION</a>
+      <a href="thriller.html" target= "_blank">THRILLER & HORROR</a>
+    </div>
+  </li>
+</ul>
+</p>
+  <fieldset>
+  <h1>Best Books Of Thriller & Horror 👽 </h1>
+  <section>
+     <marquee scrollamount= "3">“Just when you think you've hit rock bottom, you realize you're standing on another trapdoor. - Marisha Pessl, Night Film ”</marquee>
+  </section>
+  <audio controls style = "width:300px; height:30px">
+    <source src = "st.mp3" type = "audio/mpeg"></audio>
+  <p>Soundtrack from Pet semetary - Starcrawler</p>
+ <center>
+    <table>
+      <tr>
+        <th colspan = "3">1. IT </th>
+      </tr>
+
+      <tr>
+        <td><img src = "it.jpg" width= "250" height = "400" alt= "tfios"></td>
+
+        <td><video controls style = "width:400px" >
+            <source src = "it.mp4" type= "video/mp4" ></video></td>
+              <td><b><font size = "+1">Written by Stephan King (1986) & Directed Andrés Muschietti (2017)</b><br><br>
+              Language: English<br>
+              Pages: 1138<br>
+              Publisher: Scribner; Media Tie In edition (July 11, 2017)- republished<br>
+              Amazon Best Sellers Rank:<br>
+              - #5,348 in Books (See Top 100 in Books)<br>
+              - #275 in Coming of Age Fiction (Books)<br>
+              - #31 in Werewolf & Shifter Thrillers<br>
+              - #441 in Horror Literature & Fiction<br><br>
+
+              Sypnosis: They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness. But the promise they made twenty-eight years ago calls them reunite in the same place where, as teenagers, they battled an evil creature that preyed on the city’s children. Now, children are being murdered again and their repressed memories of that terrifying summer return as they prepare to once again battle the monster lurking in Derry’s sewers.
+
+
+
+              </td>
+      </tr>
+
+      <tr>
+        <th colspan = "3">2. PET SEMATARY</th>
+      </tr>
+
+      <tr>
+        <td><img src = "pet.jpg" width= "250" height = "400" alt= "me before you"></td>
+
+        <td><video controls width= "400" >
+            <source src = "pet.mp4" type= "video/mp4" ></video></td>
+              <td><b><font size = "+1">Written by Stephan King (1983) & Directed by ‎Kevin Kölsch; Dennis Widmyer (2019)</b><br><br>
+              Language: English<br>
+              Pages: 374<br>
+              Publisher: Doubleday (1983)<br>
+              Amazon Best Sellers Rank: <br>
+              - #412,517 in Books (See Top 100 in Books)<br>
+              - #15817 in Horror Literature & Fiction<br><br>
+
+              Sypnosis:" Now, he has to find a way to stop his son before he kills the whole town. Pet Sematary (PS) is a 1989 horror flick based on Stephen King's novel of the same name. After moving into their new home, the Creed family's cat is killed after wandering onto the highway. ... The docile cat is now vicious and destructive.
+
+              </td>
+      </tr>
+
+       <tr>
+        <th colspan = "3">3. FRANKENSTEIN</th>
+      </tr>
+
+      <tr>
+        <td><img src = "frank.jpg" width= "250" height = "400" alt= "me before you"></td>
+
+        <td><video controls width= "400" >
+            <source src = "frank.mp4" type= "video/mp4" ></video></td>
+              <td><b><font size = "+1">Written by Mary shelly & Directed by Kenneth Branagh(1994)</b><br><br>
+                Language: English<br>
+                Pages: 280<br>
+                Publisher: CreateSpace Independent Publishing Platform (November 25, 2017)-republished<br><br>
+                Sypnosis: about the young student of science Victor Frankenstein, who creates a grotesque but sentient creature in an unorthodox scientific experiment. Shelley started writing the story when she was eighteen, and the novel was published when she was twenty. The first edition was published anonymously in London in 1818. Shelley's name appears on the second edition, published in France in 1823. Shelley had travelled through Europe in 1814, journeying along the river Rhine in Germany with a stop in Gernsheim which is just 17 km (10 mi) away from Frankenstein Castle, where two centuries before an alchemist was engaged in experiments. Later, she travelled in the region of Geneva (Switzerland)—where much of the story takes place—and the topics of galvanism and other similar occult ideas were themes of conversation among her companions, particularly her lover and future husband, Percy Shelley. Mary, Percy, Lord Byron, and John Polidori decided to have a competition to see who could write the best horror story. After thinking for days, Shelley dreamt about a scientist who created life and was horrified by what he had made; her dream later evolved into the story within the novel.
+
+              </td>
+      </tr>
+
+
+    </table>
+  </fieldset>
+</body>
+</html>
